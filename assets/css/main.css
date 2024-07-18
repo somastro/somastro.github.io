@@ -120,9 +120,8 @@ html {
 			font-size: 12pt;
 		}
 
-	}
-
-	@media screen and (max-width: 736px) {
+	} 
+ 	@media screen and (max-width: 992px) {
 
 		html {
 			font-size: 11pt;
@@ -139,8 +138,8 @@ html {
 	}
 
 body, input, select, textarea {
-	color: #ffffff;
-	font-family: "Source Sans Pro", sans-serif;
+	color:#00001a ; /* #ffffff  to #31708f to #00001a  AYY*/
+	font-family: "Garamond", serif; /*cheng from "Source Sans Pro", sans-serif; to "Garamond", serif; similiar to "Times New Roman", serif; by AYY */
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.65;
@@ -162,7 +161,7 @@ a {
 	}
 
 strong, b {
-	color: #ffffff;
+	color: #00001a; /* #ffffff  to #31708f to #00001a  AYY*/
 	font-weight: 600;
 }
 
@@ -175,7 +174,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #ffffff;
+	color: #00001a; /* #ffffff  to #31708f to #00001a  AYY*/
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
@@ -189,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px #00001a;  /* change from #ffffff to black  00001a by AYY*/
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
@@ -236,7 +235,8 @@ h6 {
 
    	See here for more: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 */
-@media screen and (max-width: 736px) {
+
+ @media screen and (max-width: 736px) {
 
 	h1 {
 		font-size: 1.75rem;
@@ -263,7 +263,7 @@ sup {
 }
 
 blockquote {
-	border-left: solid 4px #ffffff;
+	border-left: solid 4px #00001a;  /* change from #ffffff to black  00001a by AYY*/
 	font-style: italic;
 	margin: 0 0 2rem 0;
 	padding: 0.5rem 0 0.5rem 2rem;
@@ -294,7 +294,7 @@ pre {
 
 hr {
 	border: 0;
-	border-bottom: solid 1px #ffffff;
+	border-bottom: solid 1px #00001a; /* change from #ffffff to black  00001a by AYY*/
 	margin: 2.75rem 0;
 }
 
@@ -385,7 +385,7 @@ form {
 	}
 
 label {
-	color: #ffffff;
+	color: #00001a;  /* change from #ffffff to black  00001a by AYY*/
 	display: block;
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -411,7 +411,7 @@ textarea {
 	transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	background-color: transparent;
 	border-radius: 4px;
-	border: solid 1px #ffffff;
+	border: solid 1px #00001a; /* change from #ffffff to black  00001a by AYY*/
 	color: inherit;
 	display: block;
 	outline: 0;
@@ -691,8 +691,7 @@ input[type="radio"] + label:before {
 		.image.main img {
 			width: 100%;
 		}
-
-	@media screen and (max-width: 736px) {
+ 	@media screen and (max-width: 736px) {
 
 		.image.main {
 			margin: 2rem 0;
@@ -899,7 +898,7 @@ ul.icons {
 
 		ul.icons li a {
 			border-radius: 100%;
-			box-shadow: inset 0 0 0 1px #ffffff;
+			box-shadow: inset 0 0 0 1px #00001a; /* change from #ffffff to black  00001a by AYY*/
 			display: inline-block;
 			height: 2.25rem;
 			line-height: 2.25rem;
@@ -928,7 +927,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 1px #ffffff;
+		border: solid 1px #00001a; /* change from #ffffff to black  00001a by AYY*/
 		border-left: 0;
 		border-right: 0;
 	}
@@ -942,7 +941,7 @@ table {
 	}
 
 	table th {
-		color: #ffffff;
+		color: #00001a; /* change from #ffffff to black  00001a by AYY*/
 		font-size: 0.9em;
 		font-weight: 600;
 		padding: 0 0.75em 0.75em 0.75em;
@@ -950,11 +949,11 @@ table {
 	}
 
 	table thead {
-		border-bottom: solid 2px #ffffff;
+		border-bottom: solid 2px #00001a; /* change from #ffffff to black  00001a by AYY*/
 	}
 
 	table tfoot {
-		border-top: solid 2px #ffffff;
+		border-top: solid 2px #00001a; /* change from #ffffff to black  00001a by AYY*/
 	}
 
 	table.alt {
@@ -962,7 +961,7 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 1px #ffffff;
+			border: solid 1px #00001a;/* change from #ffffff to black  00001a by AYY*/
 			border-left-width: 0;
 			border-top-width: 0;
 		}
@@ -1001,8 +1000,8 @@ button,
 	background-color: transparent;
 	border-radius: 4px;
 	border: 0;
-	box-shadow: inset 0 0 0 1px #ffffff;
-	color: #ffffff !important;
+	box-shadow: inset 0 0 0 1px #00001a;/* change from #ffffff to black  00001a by AYY*/
+	color: #00001a !important; /* change from #ffffff to black  00001a by AYY*/
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.8rem;
@@ -1145,7 +1144,7 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/milky_way.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1165,7 +1164,7 @@ button {
 	}
 
 	body.is-preload #bg:before {
-		background-color: #000000;
+		background-color: #0000; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7; F9F9F9 by AYY*/
 	}
 
 /* Wrapper */
@@ -1206,8 +1205,7 @@ button {
 		}
 
 	}
-
-	@media screen and (max-width: 736px) {
+ 	@media screen and (max-width: 736px) {
 
 		#wrapper {
 			padding: 2rem 1rem;
@@ -1416,7 +1414,7 @@ button {
 		}
 
 	}
-
+ 
 	@media screen and (max-width: 736px) {
 
 		#header > * {
@@ -1532,9 +1530,9 @@ button {
 		transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 		padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 		position: relative;
-		width: 40rem;
+		width: 55rem;   /* change from 45 rem to 55 rem by AYY */
 		max-width: 100%;
-		background-color: rgba(27, 31, 34, 0.85);
+		background-color: #F9F9F9; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; #F9F9F9; by AYY*/
 		border-radius: 4px;
 		opacity: 0;
 	}
@@ -1586,7 +1584,7 @@ button {
 			#main article .close:active:before {
 				background-color: rgba(255, 255, 255, 0.175);
 			}
-
+ 
 	@media screen and (max-width: 736px) {
 
 		#main article {
@@ -1647,3 +1645,5 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+
